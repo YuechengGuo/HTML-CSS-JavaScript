@@ -1,0 +1,87 @@
+<! DOCTYPE html>
+
+<!--this file is used for testing all functions of html-->
+
+<html lang = "en-US"> <!-- declaring a language is important for accessibility applications (screen readers) and search engines -->
+
+<head>
+	<title>
+	What does "head" section provide?
+	</title>
+	<meta charset = "UTF-8"> <!--what <style> and <link> element means?-->
+
+	<!--we can put some external style sheet here by adding link like this: 
+		<link rel = "relationship(specifies the relationship between current doc and the linked doc)" href = "filename.css">-->
+</head>
+
+<body>
+	<p id = "Link" title = "intro" style = "font-size: 200%; background-color: black; color: white">
+	You can find me at:
+	</p>
+	<hr>
+	
+	<a href = "http://www.dccomics.com/characters/batman">
+	<img src = "batmanEntry.jpg" alt = "BatmanEntry" width = "200" height = "120">
+	</a>
+	<hr>
+
+	<p style = "color: red"><b>Description: </b></p>
+	<blockquote cite="http://www.dccomics.com/characters/batman" >
+		<abbr title = "Dark Knight">DK</abbr>. Caped Crusader. World’s Greatest Detective. Whatever you know him as, wherever you know him from—the blockbuster movies, TV shows, video games, cartoons, or millions of comics—Batman is proof you don’t need superpowers to be a superhero… and the poster boy for what a bad childhood can do to you.
+	</blockquote>
+	<hr>
+
+	<pre style = "color: red; font-family: verdana; text-align: center">
+		space <strong>works as break</strong> line
+
+tab works <b>as tab as</b> well
+		let's see
+	</pre>
+	<p>
+		<cite>blablabla</cite> by Bdafasf GAFDS<br>
+		this will look like a .revers() method:<br>
+		<bdo dir = "rtl"> <cite>blablabla</cite> by Bdafasf GAFDS<br> <bdo>
+
+	</p>
+	<pre>
+	<code>
+		public class Test{
+			public static void main(String[] args) {
+				System.out.println("Hello world");
+			}
+		}	
+	</code>
+	</pre>
+
+	<p>	
+		<img src = "Joker-Batman-DC-Movie-Universe.jpg" alt = "Joker and Batman, the DC Universe" usemap = "#BatmanvsJoker" style = "width: 300; height: 120; float: right">
+
+		<map name = "BatmanvsJoker">
+			<area shape = "rect" coords = "0, 0, 150, 120" alt = "batman" href = "http://www.dccomics.com/characters/batman">
+
+			<area shape = "rect" coords = "150, 0, 300, 120" alt = "joker" href = "http://www.dccomics.com/characters/joker">
+		</map>
+
+
+		<kbd>this is a format for computer keyboard input.</kbd> <!--just one of formats-->
+		<br>
+		<samp>this is sample output from a computer</samp>
+		<br>
+		let's take a look at variables like <var>x</var>, <var>y</var> and <var>z</var>
+
+	</p>
+
+	<address>
+		1 Corporate South,<br>
+		Piscataway, NJ, 08854<br>
+	</address>
+
+	<p>
+		<a href = "#top"> Back to top</a>
+	</p>
+
+
+
+</body>	
+
+</html>
