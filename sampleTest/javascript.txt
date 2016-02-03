@@ -1,0 +1,29 @@
+Java Script
+
+HTML: to define the content webpages
+CSS: to specify the layout of webpages
+JavaScript: to program the behaviour of webpages
+
+- client side scripting language
+
+Jscript by MS
+
+Jquery
+Jquery-Ajax method
+Angular JS
+Node JS
+
+advantage:
+- less server interaction
+- immediate feedback to the visitors
+- increased interactivity
+- richer interfaces
+
+JDBC
+JSP 
+JSON
+SERVLETS
+XML
+
+
+ajax
